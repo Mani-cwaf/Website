@@ -1,0 +1,46 @@
+body {
+    place-items: center;
+}
+
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    grid: 'c';
+}
+
+.card:hover>.card-content>.card-subtitle>.card-subtitle-word {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: opacity 0ms, transform 200ms cubic-bezier(.90, .06, .15, .90);
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+.card-subtitle {
+    font-size: 1.5rem;
+}
+
+.card-subtitle-word {
+    display: inline-block;
+    margin: 0vmin 0.3vmin;
+    opacity: 0;
+    position: relative;
+    transform: translateY(40%);
+    transition: none;
+    color: var(--first-color);
+}
