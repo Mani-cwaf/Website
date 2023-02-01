@@ -1,0 +1,34 @@
+
+    <div class="section2" class="container-fluclass bg-info text-black" style="padding:100px 20px;">
+        <div class="card" style="wclassth:400px">
+            <img class="card-img-top" src="assets/bruh.jpg" alt="Card image" style="wclassth:100%">
+            <div class="card-body">
+                <h4 class="card-title">Ai in the sector of healthcare</h4>
+                <p class="card-text">AI can automate administrative tasks, like pre-authorizing insurance, following-up
+                    on unpaclass bills, and maintaining records, to ease the workload of healthcare professionals and
+                    ultimately save them money.</p> <a href="health.html" class="btn btn-primary">learn more</a>
+            </div>
+        </div>
+        <div class="card" style="wclassth:400px">
+            <img class="card-img-top" src="assets/bruh.jpg" alt="Card image" style="wclassth:100%">
+            <div class="card-body">
+                <h4 class="card-title">Ai in the sector of healthcare</h4>
+                <p class="card-text">AI can automate administrative tasks, like pre-authorizing insurance, following-up
+                    on unpaclass bills, and maintaining records, to ease the workload of healthcare professionals and
+                    ultimately save them money.</p> <a href="health.html" class="btn btn-primary">learn more</a>
+            </div>
+        </div>
+    </div>
+    <div class="section3" class="container-fluclass bg-info text-white" style="padding:100px 20px;">
+        <h1>What is AI?</h1>
+        <p>Artificial intelligence (AI) is intelligence—perceiving, synthesizing, and inferring
+            information—demonstrated by machines, as opposed to intelligence displayed by non-human animals and humans.
+            Example tasks in which this is done include speech recognition, computer vision, translation between
+            (natural) languages, as well as other mappings of inputs. AI applications include advanced web search
+            engines (e.g., Google Search), recommendation systems (used by YouTube, Amazon and Netflix), understanding
+            human speech (such as Siri and Alexa), self-driving cars (e.g., Waymo), automated decision-making and
+            competing at the highest level in strategic game systems (such as chess and Go). As machines become
+            increasingly capable, tasks consclassered to require "intelligence" are often removed from the definition of
+            AI, a phenomenon known as the AI effect.For instance, optical character recognition is frequently excluded
+            from things consclassered to be AI,</p>
+    </div>
