@@ -9,7 +9,7 @@ texts = [
     'Poster Creation'
 ]
 
-let index = 0;
+let subtitleIndex = 0;
 for (const subtitle of subtitles) {
     const createWord = (text, index) => {
         const word = document.createElement(`span`);
@@ -27,6 +27,8 @@ for (const subtitle of subtitles) {
     
     const createSubtitle = text => text.split(` `).map(addWord);
 
-    createSubtitle(texts[index]);
-    index++;
+    createSubtitle(texts[subtitleIndex]);
+    subtitleIndex++;
 }
+
+document.querySelectorAll('.')

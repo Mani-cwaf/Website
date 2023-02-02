@@ -18,7 +18,7 @@ h4 {
     padding: 1rem;
     border-radius: 0.5rem;
     margin: 2rem;
-    grid: 'c';
+    cursor: pointer;
 }
 
 .card:hover>.card-content>.card-subtitle>.card-subtitle-word {
@@ -43,4 +43,71 @@ h4 {
     transform: translateY(40%);
     transition: none;
     color: var(--first-color);
+}
+
+#carousel-container {
+    width: 500px;
+    height: 332px;
+    position: relative;
+    margin: 50px auto 0;
+    border: 10px solid #000;
+    border-radius: 10px;
+}
+
+#carousel-container>div:first-child {
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0;
+}
+
+#carousel {
+    position: relative;
+    width: 5000px;
+    height: 20rem;
+    padding: 0;
+    margin: 0;
+}
+
+.animate {
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+.slide {
+    list-style: none;
+    position: relative;
+    float: left;
+    width: 20rem;
+    height: 15rem;
+}
+
+#controls {
+    position: absolute;
+    width: 620px;
+    top: calc(50% - 25px);
+    margin: 0 -60px;
+}
+
+#controls span {
+    width: 50px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+#controls span:hover {
+    opacity: 1;
+}
+
+#prev {
+    float: left;
+}
+
+#next {
+    float: right;
 }

@@ -1,12 +1,12 @@
 .image-track {
+    position: relative;
     display: flex;
     gap: 4rem;
-    position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(0%, -50%);
     user-select: none;
     background-color: var(--background-color);
+    padding: 2rem 0 2rem 0;
+    margin-top: 1rem;
 }
 
 .image-track>.image {
@@ -35,7 +35,6 @@ body:not(:has(.image-track.active)) .image-track{
     font-family: 'Knewave';
     box-shadow: var(--normal-box-shadow);
     padding: 2rem;
-    left: 7rem;
-    top: 8rem;
     border-radius: 1rem;
+    margin-left: 2rem
 }
