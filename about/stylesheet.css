@@ -8,17 +8,15 @@ h4 {
     padding: 0;
 }
 
-.team {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
 .card {
     padding: 1rem;
     border-radius: 0.5rem;
     margin: 2rem;
-    cursor: pointer;
+    list-style: none;
+    position: relative;
+    float: left;
+    width: 20rem;
+    height: 15rem;
 }
 
 .card:hover>.card-content>.card-subtitle>.card-subtitle-word {
@@ -45,7 +43,7 @@ h4 {
     color: var(--first-color);
 }
 
-#carousel-container {
+.carousel-container {
     width: 500px;
     height: 332px;
     position: relative;
@@ -54,13 +52,13 @@ h4 {
     border-radius: 10px;
 }
 
-#carousel-container>div:first-child {
+.carousel-container>div:first-child {
     overflow: hidden;
     max-width: 100%;
     margin: 0;
 }
 
-#carousel {
+.carousel {
     position: relative;
     width: 5000px;
     height: 20rem;
@@ -79,35 +77,27 @@ h4 {
     transition-property: transform;
 }
 
-.slide {
-    list-style: none;
-    position: relative;
-    float: left;
-    width: 20rem;
-    height: 15rem;
-}
-
-#controls {
+.controls {
     position: absolute;
     width: 620px;
     top: calc(50% - 25px);
     margin: 0 -60px;
 }
 
-#controls span {
+.controls span {
     width: 50px;
     cursor: pointer;
     opacity: 0.4;
 }
 
-#controls span:hover {
+.controls span:hover {
     opacity: 1;
 }
 
-#prev {
+.prev {
     float: left;
 }
 
-#next {
+.next {
     float: right;
 }

@@ -31,4 +31,28 @@ for (const subtitle of subtitles) {
     subtitleIndex++;
 }
 
-document.querySelectorAll('.')
+const cards = document.querySelectorAll('.card');
+
+activeCardIndex = 0;
+
+const refresh = () => {
+    if (activeCardIndex < 0) {
+        activeCardIndex = cards.length - 1;
+    }
+    if (activeCardIndex > cards.length - 1) {
+        activeCardIndex = 0;
+    }
+    for (const card of cards) {
+        card.style.display = 'none';
+    }
+    cards[activeCardIndex].style.display = 'block'
+}
+
+document.querySelector('.next').addEventListener('click', () => {
+    activeCardIndex++;
+    refresh();
+});
+document.querySelector('.prev').addEventListener('click', () => {
+    activeCardIndex--;
+    refresh();
+});
