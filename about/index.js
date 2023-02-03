@@ -4,9 +4,9 @@ texts = [
     'Team Leader, Sustainable Cities App, CSS Designer & Home Page Designer',
     'Home Page Content, Health Page Content',
     'About Us Page Content',
-    'Energy Page Content',
+    'Health Content',
     'Poster Creation',
-    'Poster Creation'
+    'Energy Creation'
 ]
 
 let subtitleIndex = 0;
