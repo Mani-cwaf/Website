@@ -1,7 +1,7 @@
 const subtitles = document.querySelectorAll(`.card-subtitle`);
 
 texts = [
-    'Team Leader, Sustainable Cities App, Page Design, Carousel Designs',
+    'Team Leader, Sustainable Cities App, App Page, Page Design, Carousel Designs',
     'Home Page Content, Navigation Bar Design',
     'About Us Page Content',
     'Health Page Content',
