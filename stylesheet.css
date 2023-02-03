@@ -19,11 +19,11 @@
     box-shadow: 0 5px 10px rgba(40, 40, 40, 0.5);
 }
 
-body:has(.image-track.active) .title{
+body:has(.image-track.active) .title {
     filter: blur(5px);
 }
 
-body:not(:has(.image-track.active)) .image-track{
+body:not(:has(.image-track.active)) .image-track {
     filter: blur(2px) grayscale(5%);
 }
 
@@ -37,4 +37,25 @@ body:not(:has(.image-track.active)) .image-track{
     padding: 2rem;
     border-radius: 1rem;
     margin-left: 2rem
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 40rem;
+}
+
+.card * {
+    margin: 0;
+    padding: 0;
+}
+
+.card h1 {
+    margin-bottom: 1rem;
 }
