@@ -2,7 +2,7 @@ const subtitles = document.querySelectorAll(`.card-subtitle`);
 
 texts = [
     'Sustainable Cities App, App Page Content, All Page Designs, Navigation Menu, Home Page Content, About The Team',
-    'Health Page Content',
+    'Health Page Content, Played venge.io',
     'About Page Content',
     'Health Page',
     'Poster Creation',
